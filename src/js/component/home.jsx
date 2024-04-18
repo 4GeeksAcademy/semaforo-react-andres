@@ -6,7 +6,6 @@ import  TrafficLightsLooks  from "./trafficLightsLooks.jsx"
 const Home = () => {
 	return (
 		<div>
-			<TrafficLights/>
 			<TrafficLightsLooks/>
 		</div>
 	);
