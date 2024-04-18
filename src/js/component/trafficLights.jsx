@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const trafficLights = () => {
+const TrafficLights = () => {
   // Estado para manejar el color activo
   const [activeColor, setActiveColor] = useState('');
 
@@ -52,4 +52,4 @@ const trafficLights = () => {
   );
 };
 
-export default trafficLights;
+export default TrafficLights;
